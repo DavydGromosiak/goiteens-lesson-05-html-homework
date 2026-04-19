@@ -588,6 +588,20 @@ textarea {
     object-fit: contain;
 }
 
+.footer-repo-btn {
+    width: fit-content;
+    margin-top: 8px;
+    border-color: rgba(255, 255, 255, 0.18);
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #fff;
+}
+
+.footer-repo-btn:hover,
+.footer-repo-btn:focus-visible {
+    background-color: rgba(255, 255, 255, 0.18);
+    border-color: rgba(255, 255, 255, 0.34);
+}
+
 .footer-column p,
 .footer-column a {
     color: rgba(255, 255, 255, 0.76);
@@ -701,6 +715,10 @@ button:focus-visible {
     .btn,
     .text-link {
         justify-content: center;
+    }
+
+    .footer-repo-btn {
+        width: 100%;
     }
 
     .hero-media {
